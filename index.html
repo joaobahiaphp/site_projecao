@@ -1,0 +1,69 @@
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>P&aacute;gina Principal</title>
+	<link rel=stylesheet href="estilo_layout.css">
+
+	<script type="text/javascript" language="javascript">
+	
+		function valida_form (){
+			if(document.getElementById("nome").value.length < 3) {
+				alert('Por favor, preencha o seu nome !');
+				document.getElementById("nome").focus();
+				return false
+			}
+		}
+
+	</script>
+
+</head>
+<body>
+
+<div id="tudo">
+
+	<div id="topo">
+		
+	</div>
+
+	<div id="conteudos">
+
+		<table border=0 cellpadding=10 width=100%>
+
+			<tr>
+
+				<td bgcolor="#f0f8ff" align=center valign=top width=17%>
+
+				</td>
+
+				<td bgcolor="#f0f8ff" align=left valign=top width=83%>
+					<h1>Projeto<br /> jogo de perguntas e respostas sobre A.B.N.T.</h1>
+					<p>Teste seus conhecimentos sobre padroniza&ccedil;&atilde;o de trabalhos cient&iacute;ficos.</p>
+					<p>Para come&ccedil;ar, digite seu nome e clique em "Iniciar".</p>
+					<form method="post" action="questao01.php"  onsubmit="return valida_form(this)">
+						<input type="text" size=35 id="nome" name="nome">
+						<br /><br />
+						<input type="submit" name="submit" value="Iniciar">
+					</form>
+					
+					<p>Para outras informa&ccedil;&otilde;es, veja abaixo:</p>
+					<a href="projeto.pdf">Projeto de Pesquisa</a>
+				</td>
+			</tr>
+
+		</table>
+
+	</div>
+	
+	
+
+	<div id="rodape">
+		<address><center><b>Centro Universit&aacute;rio Proje&ccedil;&atilde;o - CAMPUS II - Taguatinga/DF</b></center></address>
+	</div>
+
+
+
+</div>
+
+</body>
+</html>

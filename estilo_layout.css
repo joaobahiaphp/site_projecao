@@ -1,0 +1,54 @@
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: courier;
+	background-color: black;
+}
+
+#tudo{
+	width: 760px;
+	margin: 0 auto;
+	text-align: left;
+	font-family: courier;
+	background-color: #f0f8ff;
+}
+
+#topo{
+	height: 90px;
+	background-image: url("cab01.jpg");
+}
+
+h1{
+	margin-top: 0;
+}
+
+#conteudos{
+	width: 600px;
+	float: right;
+}
+
+#auxiliar{
+	width: 170px;
+	float: right;
+	background: #ccc;
+}
+
+#principal{
+	width: 420px;
+	float: left;
+	background: #d1ecf6;
+}
+
+#navegacao{
+	width: 150px;
+	float: left;
+	background: #a2daec
+}
+
+#rodape{
+	clear: both;
+	height: 25px;
+	color: white;
+	background-image: url("rod01.jpg");
+}
